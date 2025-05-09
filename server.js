@@ -12,7 +12,7 @@ const io = socketIo(server);
 const PORT = process.env.PORT || 3000;
 
 // MongoDB Atlas connection com string real
-mongoose.connect('mongodb+srv://amandafranceschi18:100Senha**$$@cluster0.cwes1fg.mongodb.net/chat-criative?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://amandafranceschi18:SenhaChat@2025@cluster0.cwes1fg.mongodb.net/chat-criative?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
